@@ -1,1 +1,11 @@
-thingsimwrestlingwith
+Some things that I could get a better understanding of:
+
+-Using Git
+
+-Navigating GitHub (will come with time) 
+
+-Understanding some of the structure and logic behind more complex code.  To walk through the logic of 
+this = that and this effects that would help me in understanding a little better.
+e.g.- {|number,index|array[index]=number.to_i
+
+
