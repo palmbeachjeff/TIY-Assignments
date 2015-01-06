@@ -1,3 +1,4 @@
+
 # Write code to answer each of the following questions. Show the code and, in a comment, its return value.
 # Example:
 # How many letters are in the word 'abbreviation'?
