@@ -203,11 +203,26 @@ number_count = {
 'four' => '(4)'
 'five' => '(5)'
 'six' => '(6)'
+'seven' => '(7)'
+'eight' => '(8)'
+'nine' => '(9)'
+'ten' => '(10)'
 
 }
+
+end
+
+
+print number_count.sort_by do |key, value|
+
+	puts key + value
+
+
 n = 3; puts "I have #{n} pizza#{n = 1 '' : 's'}"
 # What is the typo in the above line, and why does it have the effect that it does?
 #I entered the code above, but counldn't figure out how to correct....
+
+#the typo above is the ":" should be !=, so that the word pizza isn't plural.
 
 
 # Fix the typo in the above line of code.
