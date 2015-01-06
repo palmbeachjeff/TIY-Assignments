@@ -114,8 +114,7 @@ class_list = class_list.sort_by {|x| x.length}
 
 
 # Split the above list of names into a group that starts with 'J' and a group that doesn't.
-%w(Joe Kelly Spencer Peter Ivan Andell Angela Jeff Brian).partition{|n| n.upcase = J }
-????????????????????????????????????????????????????
+%w(Joe Kelly Spencer Peter Ivan Andell Angela Jeff Brian).partition{|n| n.chars.first == 'J'}
 
 
 
@@ -129,8 +128,8 @@ president_birthdays = {
 # write code to access George Washington's birthday from the hash.
 president_birthdays = {'Abraham Lincoln' => 'February 12, 1809', 'William Henry Harrison' => 'February 9, 1773', 'George Washington' => 'February 22, 1732', 'Ronald Reagen' => 'February 6, 1911'}
 
-president_birthdays {|name| 'George Washington'}
-??????????????????????????????????????????????????????????????????
+president_birthdays['George Washington'}
+
 
 # Add a comment after the following block of code showing its return value.
 # Then add another comment explaining in English what the code does. 
@@ -138,7 +137,7 @@ president_birthdays.each do |key, value|
   puts "President #{key} was born on #{value}."
 end
 
-
+#Return Value
 #President Abraham Lincoln was born on February 12, 1809. 
 #President William Henry Harrison was born on February 9, 1773. 
 #President George Washington was born on February 22, 1732. 
@@ -150,18 +149,34 @@ end
 
 
 
-????????
-#Creating database below was something that I couldn't find the syntax for......
-
 # Imagine you were talking to someone who missed today's class (and the prework). 
 # Write down how you would explain how to go about solving the next task. Then write code to solve it.
 # Modify the code to print out only the Presidents born during the 18th century. 
 
+president_birthdays.select{|a,b| b.include? ('17') }
+
+#=> {"William Henry Harrison"=>"February 9, 1773", "George Washington"=>"February 22, 1732"}
+#irb(main):019:0>
+
+
+
+
 # Modify the code to print out only the President born during the 20th century.
+president_birthdays.select{|a,b| b.include? ('19')}
+
 
 # Add James A. Garfield (born November 19, 1831) to the hash, and modify the code (if necessary) to print out only the President born during the 20th century.
+president_birthdays['James A. Garfield'] = "November 19, 1831"
+
+president_birthdays.select{|a,b| b.include? (1911) }
+
+
 
 # Also add Bill Clinton (born August 19, 1946), and modify the code (if necessary) to print out the two Presidents born during the 20th century. 
+
+president_birthdays['Bill Clinton'] = "August 19, 1946"
+
+president_birthdays.select{|a,b| b.include? (1946, 1911) }
 
 # EXPERT LEVEL: modify the code to print out the Presidents in the order of their birth.
 
@@ -180,6 +195,16 @@ end
 # two (2)
 # Create the same kind of print out for the numbers from one to ten.
 
+
+number_count = {
+'one' => '(1)'
+'two' => '(2)'
+'three' => '(3)'
+'four' => '(4)'
+'five' => '(5)'
+'six' => '(6)'
+
+}
 n = 3; puts "I have #{n} pizza#{n = 1 '' : 's'}"
 # What is the typo in the above line, and why does it have the effect that it does?
 #I entered the code above, but counldn't figure out how to correct....
