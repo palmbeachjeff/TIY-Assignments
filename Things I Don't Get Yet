@@ -8,4 +8,6 @@ Some things that I could get a better understanding of:
 this = that and this effects that would help me in understanding a little better.
 e.g.- {|number,index|array[index]=number.to_i
 
+-Pulling info from array's
+
 
