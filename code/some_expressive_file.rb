@@ -20,6 +20,7 @@ def word_names =
 'seven' => '(7)'
 'eight' => '(8)'
 'nine' => '(9)'
+
 'ten' => '(10)'
 'eleven' => '(11)'
 'twelve' => '(12)'
@@ -30,6 +31,7 @@ def word_names =
 'seventeen' => '(17)'
 'eighteen' => '(18)'
 'nineteen' => '(19)'
+
 	'twenty' => '(20)'
 	'thirty' => '(30)'
 	'forty' => '(40)'
@@ -38,11 +40,30 @@ def word_names =
 	'seventy' => '(70)'
 	'eighty' => '(80)'
 	'ninety' => '(90)'
+	
 		'hundred' => '(100)'
 		'thousand' => '(1000)'
 		'million' => '(1000000)'
 
 }
+
+
+puts "Write a number between one and a million in English, please"
+
+words_hash={word_names => [num]}
+
+# in order to sort through the progression....
+# if word_name is in group 1 then =  its x
+# if word_name is in group 1&2 then = it's y
+# if word_name is in group 1&2&3 then = it's z
+
+puts words_hash 
+	
+end
+	
+end
+
+
 
 
 scale - [000 => ""], 1000 => "thousand", 1000000 => "million"]
