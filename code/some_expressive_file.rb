@@ -7,7 +7,7 @@ some_expressive_file.rb
 # 
 #
 #
-
+#
 
 def word_names = 
 	{
@@ -40,7 +40,7 @@ def word_names =
 	'seventy' => '(70)'
 	'eighty' => '(80)'
 	'ninety' => '(90)'
-	
+
 		'hundred' => '(100)'
 		'thousand' => '(1000)'
 		'million' => '(1000000)'
