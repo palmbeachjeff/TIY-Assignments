@@ -15,6 +15,14 @@ e.g.- {|number,index|array[index]=number.to_i
 
 -Git branches, still a little confusion behind these
 
+  DAY 3 
+
+-Ruby iterations that occur on top of themselves
+
+-The structure of a Ruby "sentence" is a little fuzzy
+
+-If an error pops up, going through to test is still a bit scary
+
 
 
 
