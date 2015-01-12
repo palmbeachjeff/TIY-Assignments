@@ -9,6 +9,9 @@ class Card
 
 	def display_card 
 		"Your card is a #{value} of #{suit}"
+	def value 
+		@value
+	
 		
 	end
 

@@ -12,3 +12,8 @@ class TestCard < MiniTest::Unit::TestCase
 		assert_equals "Your card is a 5 of diamonds", @card.display_card
 		
 	end
+
+	def test_of_value
+		assert_equals '5', @card.value
+	end
+end
