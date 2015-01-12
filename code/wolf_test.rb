@@ -32,5 +32,10 @@ class Testwolf< MiniTest::Unit::TestCase
 		@older_wolf = Wolf.new('Wolfy', 15)
 		assert @older_wolf.dominant_to(@wolf)
 	end 
+
+	def test_to_make_sure_young_are_submissive
+		@younger_wolf = Wolf.new('Frank', 1)
+		assert @younger_wolf.submissive_to(@wolf)
+	end 
 end
 

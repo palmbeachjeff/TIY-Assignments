@@ -18,6 +18,10 @@ attr_accessor :name, :age
 	def dominant_to(other_wolf)
 		@age > other_wolf.age 
 	end
+
+	def submissive_to(other_wolf)
+		@age < other_wolf.age  
+	end
 end
 
 
