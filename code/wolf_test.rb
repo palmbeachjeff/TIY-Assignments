@@ -27,5 +27,10 @@ class Testwolf< MiniTest::Unit::TestCase
 		assert_equal "OOOOOO", @older_wolf.howl
 
 	end
+
+	def test_to_make_sure_older_wolf_is_dominant
+		@older_wolf = Wolf.new('Wolfy', 15)
+		assert @older_wolf.dominant_to(@wolf)
+	end 
 end
 

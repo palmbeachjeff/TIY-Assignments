@@ -13,8 +13,17 @@ attr_accessor :name, :age
 		else
 			'OOOOOO'
 		end
-
 	end
+
+	def dominant_to(other_wolf)
+		@age > other_wolf.age 
+	end
+end
+
+
+
+
+	
 
 
 
@@ -52,7 +61,7 @@ attr_accessor :name, :age
 	end
 	#If you call out the name of a wolf to its pack, that wolf will howl.
 =end
-end
+
 	
 	
 
