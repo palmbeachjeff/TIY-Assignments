@@ -7,7 +7,14 @@ class Card
 		
 	end
 
+	def display_card 
+		"Your card is a #{value} of #{suit}"
+		
+	end
 
+this_card = Card.new("5", "diamonds")
+
+this_card.display_card
 
 
 
