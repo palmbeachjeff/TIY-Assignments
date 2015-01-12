@@ -1,1 +1,3 @@
-not sure yet 
+require 'minitest/autorun'
+#require 'minitest/pride'
+require './wolfpack'
