@@ -1,15 +1,17 @@
 class Wolf 
 
-
+attr_accessor :name, :age 
 
 	def initialize(name, age) 
 		@name = name
 		@age = age 
 	end 
-	def age 
-		"5"      #A wolf has a name and an age. 
-
+	     #A wolf has a name and an age. 
+	def howl
+		'oooooo'
 	end
+
+
 =begin
 		
  
