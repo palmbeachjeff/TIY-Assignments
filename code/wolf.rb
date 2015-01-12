@@ -1,11 +1,19 @@
-Class Wolf 
+class Wolf 
 
 
 
-	def initialize wolf = (name, age) 
+	def initialize(name, age) 
 		@name = name
-		@age = age      #A wolf has a name and an age. 
+		@age = age 
+	end 
+	def age 
+		"5"      #A wolf has a name and an age. 
 
+	end
+=begin
+		
+ 
+		
 	end
 
 	def wolf_howl == true
@@ -18,12 +26,6 @@ Class Wolf
 	end
 
 	
-	def young_wolf = howl 
-	end
-
-	def old_wolf = howl!
-	end
-	
 	def wolf_howl = howl!
 
 	if wolf_age > 3
@@ -31,14 +33,17 @@ Class Wolf
 	else wolf_age <= 3
 		@quiet 
 	end
+	#It howls louder if it's older than 3 than if it's younger. 
+
+	def call_name_of_wolf  
+	if wolf_age > 3
+		@loud
+	else wolf_age <=3
+		@quiet
+	end
+	#If you call out the name of a wolf to its pack, that wolf will howl.
+=end
 end
 	
-	#It howls louder if it's older than 3 than if it's younger. 
 	
-=begin
 
-	does_howl = call_name_of_wolf  	
-#If you call out the name of a wolf to its pack, that wolf will howl.
-
-
-=end
