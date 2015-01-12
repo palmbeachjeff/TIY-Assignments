@@ -1,3 +1,5 @@
+Class wolfpack
+
 
 def wolfpack ==     #A wolfpack is a group of wolves
 	@wolves 
@@ -6,10 +8,11 @@ end
 def leader_wolfpack == oldest_wolf  #The leader of the wolfpack is the oldest wolf. 
 
 
-def submissive 
+
+def submissive to older_wolves
 end
 
-def dominant
+def dominant over younger wolves 
 end
 
 
