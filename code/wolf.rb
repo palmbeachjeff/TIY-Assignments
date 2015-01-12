@@ -8,13 +8,20 @@ attr_accessor :name, :age
 	end 
 	     #A wolf has a name and an age. 
 	def howl
-		'oooooo'
+		if @age <= 3 
+			'oooooo'
+		else
+			'OOOOOO'
+		end
+
 	end
+
+
 
 
 =begin
 		
- 
+ #It howls louder if it's older than 3 than if it's younger. 
 		
 	end
 
