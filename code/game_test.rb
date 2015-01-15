@@ -99,6 +99,7 @@ player_one
 
 
 	end 
+
 	#putting in function that ensures dealer loses if > 17 but <21
 	#when player has > 17 and < 21
 	

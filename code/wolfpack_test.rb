@@ -5,5 +5,7 @@ require './wolfpack'
 class Testwolfpack < MiniTest::Unit::TestCase
 
 	def setup 
-		@wolves = Card.new('5', 'diamonds')
+		@wolves = Wolfpack.new('Chucky', 5)
 	end
+end
+

@@ -1,4 +1,4 @@
-class Card
+fclass Card
 
 
 	def initialize(value, suit)
