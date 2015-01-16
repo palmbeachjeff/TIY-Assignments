@@ -4,3 +4,4 @@ class Deck
 		@value = value
 		@suit = suit 
 	
+#Update

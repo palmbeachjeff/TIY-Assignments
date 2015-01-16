@@ -19,3 +19,6 @@ class Three Card
   def initialize(bedrooms)
     @bedrooms = bedrooms
   end
+
+  #update
+  
