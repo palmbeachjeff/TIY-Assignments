@@ -14,7 +14,7 @@ class Three Card
 
   include Comparable
 
-  attr_reader :bedrooms
+  attr_reader :cards 
 
   def initialize(cards)
     @cards = cards
