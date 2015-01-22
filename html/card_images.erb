@@ -1,7 +1,20 @@
-<% require_relative "TIY-Assignments/code/deck" %> 
+<% require_relative "Users/JeffWinkler/TIY-Assignments/code/deck" %> 
 
 
 <p> I want to see what a deck of cards look like </P>
 
+<% @cards = [ :hearts, :clubs, :spades, :diamonds ].map do |suit|
+      [2,3,4,5,6,7,8,9,10,:jack,:queen,:king, :ace].map do |value|
+        Card.new(value, suit).flatten.shuffle %>
 
-<% @card = Card.new(7.to_s , "S") %>
+
+<% Card.new(1).to_img %>
+<% Card.new(2).to_img %>
+<% Card.new(3).to_img %>
+
+<p> Here's the best hand you could receive in 3 card poker </p>
+<ul>
+	<img src= "Deck/Spades/QS.svg">
+	<img src= "Deck/Spades/KS.svg">
+	<img src= "Deck/Spades/AS.svg">
+</ul>
