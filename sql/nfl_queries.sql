@@ -15,8 +15,7 @@ SELECT * FROM teams;
 
 SELECT teams.*, cities.name 
 FROM teams, cities WHERE teams.city_id = cities.id AND 
-cities.population_2013 <= 5000000 AND 
-cities.name;
+cities.population_2013 <= 5000000;
 
 -- Select every team that plays in a city of fewer than 5 million people, 
 -- and the name of the city
@@ -35,4 +34,6 @@ cities.id AND cities.state_id = states.id AND states.name = 'CALIFORNIA';
 -- Select every team that plays in California
 
 --Trying to get this pushed to GitHub now.
+
+1/27/2015 ASSIGNMENT Update
 
